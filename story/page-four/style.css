@@ -1,0 +1,104 @@
+/*styling*/
+
+body{
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    background-image: url("imgs/shroompic.jpg");
+    background-color: #cccccc;
+    color:#D3C2F8;
+    overflow:scroll;
+ }
+
+h2{
+    font-family: gelica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    padding:0;
+    margin:0
+}
+
+span{
+    font-size:20px
+}
+
+a{
+    color:#D3C2F8;
+    text-decoration:none; 
+}
+
+a:hover{
+    color:#120c1f;
+    text-decoration:underline;
+}
+
+a:visited{
+    color:#D3C2F8
+}
+/*name*/
+.name{
+    font-family: gelica, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 150px;
+}
+
+/*captions*/
+.caption{
+    font-size:20px
+}
+
+/*positioning*/
+.wrapper{
+    display:flex;
+    flex-direction:row;
+    height:100vh
+}
+.column-left{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    justify-content:center;
+    padding:30px;
+    position:sticky;
+    left:0;
+    width:30vw
+}
+
+.menu{
+    display:flex;
+    flex-direction:column;
+    justify-content:right;
+    gap:10px
+}
+
+.column-right{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+   justify-content:center;
+   align-items:center;
+   padding:30px;
+   gap:20px;
+   width:70vw;
+   overflow: auto;
+}
+.product-description{
+    display:flex;
+    flex-direction:row;
+    gap:20vw
+}
+
+.product{
+    width:25vw
+}
+/*sizing*/
+img{
+    width:50vw;
+    height:auto;
+    border-radius:5px;
+    border-style: solid;
+    border-color:#D3C2F8;
+}
