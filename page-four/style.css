@@ -8,7 +8,7 @@ body{
     background-image: url("imgs/shroompic.jpg");
     background-color: #cccccc;
     color:#D3C2F8;
-    overflow:scroll;
+    overflow:hidden;
  }
 
 h2{
@@ -63,7 +63,7 @@ font-size: 150px;
     justify-content:center;
     padding:30px;
     position:sticky;
-    left:0;
+    top:0;
     width:30vw
 }
 
@@ -80,11 +80,12 @@ font-size: 150px;
     text-align:left;
    justify-content:center;
    align-items:center;
-   padding:30px;
+   padding-top:200px;
    gap:20px;
    width:70vw;
    overflow: auto;
 }
+
 .product-description{
     display:flex;
     flex-direction:row;
